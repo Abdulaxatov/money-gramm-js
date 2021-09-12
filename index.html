@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+      <h1 class="form__title">Money Gramm</h1>
+      <input class="form__input" type="number" name="Currency course" placeholder="Valyuta ayirboshlash">
+      <div class="form__labels">
+        <label class="form__label" for="form__label">
+          <select class="form__select-type" name="Currency type" id="form__label">
+            <option class="form__option-type" value="usd">USD</option>
+            <option class="form__option-type" value="eur">EUR</option>
+            <option class="form__option-type" value="rub">RUB</option>
+            <option class="form__option-type" value="so'm">SO'M</option>
+          </select>
+        </label>
+
+        <label class="form__label" for="form__label-result">
+          <select class="form__select-type--result" name="Currency type" id="form__label-result">
+            <option class="form__option-type--result" value="usd">USD</option>
+            <option class="form__option-type--result" value="eur">EUR</option>
+            <option class="form__option-type--result" value="rub">RUB</option>
+            <option class="form__option-type--result" value="so'm">SO'M</option>
+          </select>
+        </label>
+      </div>
+      <button class="form__button" type="submit">Hisoblash</button>
+      <input class="form__result" type="number" disabled>
+    </form>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

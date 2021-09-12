@@ -1,0 +1,90 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: darkcyan;
+}
+
+.container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.329);
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.form__title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  color: goldenrod;
+}
+
+.form__input {
+  display: block;
+  width: 300px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__labels {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.form__label {
+  font-size: 18px;
+}
+
+.form__select-type,
+.form__select-type--result {
+  padding: 5px 10px;
+  background-color: teal;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__option-type,
+.form__option-type--result {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.form__button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #00BAFC;
+  border-radius: 5px;
+  background-color: #00BAFC;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3 ease;
+}
+
+.form__button:hover {
+  background-color: #fff;
+  color: #00BAFC;
+}
+
+.form__result {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
